@@ -28,8 +28,8 @@ console.log(
 // await airdropIfRequired(
 //   connection,
 //   publicKey,
-//   20 * LAMPORTS_PER_SOL,
-//   50 * LAMPORTS_PER_SOL
+//   200 * LAMPORTS_PER_SOL,
+//   300 * LAMPORTS_PER_SOL
 // );
 
 // console.log(

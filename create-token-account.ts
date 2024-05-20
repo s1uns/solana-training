@@ -14,11 +14,11 @@ console.log(
 );
 // Subtitute in your token mint account from create-token-mint.ts
 const tokenMintAccount = new PublicKey(
-    "HYeUCAqdsQBkqQNHRoBPov42QySDhwM7zAqiorToosbz"
+    "FbYY1eP8gcDnvMgSRBQs5hV1uEgkX7ssQxDAT339hm8T"
   );
   
   // Subtitute in a recipient from addresses.ts
-  const recipient = new PublicKey("Hxsgo2tPiu6967VUaEquk232riDKkaqK89wBvdSCgjH7");
+  const recipient = new PublicKey("S1uN9oEDfDCj4JevRqpESsYCMMh6P4ofLnankz7nncQ");
   
   const tokenAccount = await getOrCreateAssociatedTokenAccount(
     connection,
